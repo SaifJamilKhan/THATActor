@@ -24,6 +24,7 @@
 		76C0461A17BFE6D80088064A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C045F217BFE6D70088064A /* Foundation.framework */; };
 		76C0462217BFE6D80088064A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C0462017BFE6D80088064A /* InfoPlist.strings */; };
 		76C0462517BFE6D80088064A /* CarCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0462417BFE6D80088064A /* CarCheckerTests.m */; };
+		76FDD36F17C0168B000E96C8 /* feeder.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FDD36E17C014FB000E96C8 /* feeder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		76C0462117BFE6D80088064A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76C0462317BFE6D80088064A /* CarCheckerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarCheckerTests.h; sourceTree = "<group>"; };
 		76C0462417BFE6D80088064A /* CarCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarCheckerTests.m; sourceTree = "<group>"; };
+		76FDD36D17C0147F000E96C8 /* feeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feeder.h; sourceTree = "<group>"; };
+		76FDD36E17C014FB000E96C8 /* feeder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = feeder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		76C045F617BFE6D70088064A /* CarChecker */ = {
 			isa = PBXGroup;
 			children = (
+				76FDD36D17C0147F000E96C8 /* feeder.h */,
+				76FDD36E17C014FB000E96C8 /* feeder.m */,
 				76C045FF17BFE6D70088064A /* AppDelegate.h */,
 				76C0460017BFE6D70088064A /* AppDelegate.m */,
 				76C0460817BFE6D70088064A /* MainStoryboard_iPhone.storyboard */,
@@ -276,6 +281,7 @@
 			files = (
 				76C045FD17BFE6D70088064A /* main.m in Sources */,
 				76C0460117BFE6D70088064A /* AppDelegate.m in Sources */,
+				76FDD36F17C0168B000E96C8 /* feeder.m in Sources */,
 				76C0461017BFE6D70088064A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +473,7 @@
 				76C0462A17BFE6D80088064A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C0462B17BFE6D80088064A /* Build configuration list for PBXNativeTarget "CarCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				76C0462D17BFE6D80088064A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
